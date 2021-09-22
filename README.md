@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 
 * [x] User can **view a list of todo items**
 * [x] User can **successfully add and remove items** from the todo list
-* [x] User's **list of items persisted** upon modification and and retrieved properly on app restart
+* [x] User's **list of items persisted** upon modification and are retrieved properly on app restart
 
 The following **optional** features are implemented:
 
@@ -20,7 +20,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] User can **view a list of deleted todo items**
+* [ ] User's **list of items** have an option to be alphabetical and date ordered
 
 ## Video Walkthrough
 
@@ -32,7 +33,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+
+* Program couldn't fing symbol method writeLines(File, List<String>) - I needed to include the respective Apache Commons IO library code (org.apache.commons.io) for the program to function without errors. 
+* Issues with the relative versus constraint layout for the design - I didn't realize that my code was defaulted to constraint layout; it took me a couple of minutes to realize that my program wasn't working the way that I wanted it to work (relative layout design).
 
 ## License
 
